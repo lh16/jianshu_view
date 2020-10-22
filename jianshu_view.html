@@ -1,0 +1,19 @@
+<html>
+<head>
+<script src="https://cdn.bootcss.com/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript">
+
+$(function(){
+
+	//var url = "window.open('https://www.jianshu.com/p/a810dea58c6d?_='+Math.random())";
+	var url = "window.open('https://www.jianshu.com/p/a810dea58c6d')";//'_self'
+    for(i=0;i<30;i++){
+		setTimeout(url, 3000 + i%10*11*1000);
+    }
+	alert('ok');
+});
+</script>
+</head>
+<body>
+</body>
+</html>
